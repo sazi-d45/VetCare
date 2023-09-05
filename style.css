@@ -100,7 +100,7 @@ ul li{
 }
 .head h1{
     position: absolute;
-    left: 145px;
+    left: 350px;
     top: 195px;
     font-size: 64px;
     color: #fff;
@@ -108,7 +108,7 @@ ul li{
 }
 .head p{
     position: absolute;
-    left:145px ;
+    left:350px ;
     top: 380px;
     color: #fff;
     font-size: 24px;
@@ -146,7 +146,7 @@ ul li{
 .head .div2 .a{
     position: absolute;
     top: 520px;
-    left: 145px;
+    left: 350px;
     height: 65px;
     width: 180px;
 }
@@ -160,7 +160,7 @@ ul li{
 .head .div2 .o{
     position: absolute;
     top: 520px;
-    left: 380px;
+    left: 570px;
     height: 65px;
     width: 180px;
     display: inline;
@@ -179,8 +179,77 @@ ul li{
 
 .dog-img{
     position: absolute;
-    right: 155px;
+    right: 300px;
     top: 93px;
     bottom: 125px;
     
 }
+.div4{
+    position: relative;
+    background-color: #fff;
+    height: 780px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+
+}
+.hh{
+    height: 100%;
+    width: 50%;
+    
+
+}
+.hh h1{
+    position: absolute;
+    left: 370px;
+    top: 230px;
+    font-size: 64px;
+    
+}
+.hh p{
+    position: relative
+    
+   
+}
+.hh p{
+    
+    left: 370px;
+    top: 450px;
+    font-size: 24px;
+}
+
+.div5 .aa{
+    background-color: #00BFCB;
+    font-size: 23px;
+    padding:15px 20px 25px 15px;
+    display: inline;
+    color: #fff;
+  
+}
+.hh .div5 .aa{
+    position: absolute;
+    top: 590px;
+    left: 370px;
+    height: 65px;
+    width: 180px;
+}
+
+    
+
+.div7{
+    height: 200px;
+    width: 250px;
+    background-color:#EAAD00;
+    left: 1100px;
+    top: 525px;
+    position: absolute;
+    z-index: 2;
+
+}
+.div6 .sick-dog{
+    position: absolute;
+    left: 1150px;
+    top: 200px;
+    z-index: 1;
+}
+
+
