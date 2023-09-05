@@ -21,13 +21,14 @@ ul li{
     cursor: pointer;
 }
 .header .container{
-    width: 1150px;
+    width: 1200px;
     height: 100%;
+    padding: o 25px;
     background-color: #EAAD00;
-   margin: 0 auto;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .header-menu .menu{
     display: flex;
@@ -84,17 +85,102 @@ ul li{
     height: 780px;
     background-color: #FFC400;
     width: 100%;
-    text-align: center;
+    position: relative;
     
+    
+    
+}
+.head{
+    width: 60%;
+    height: 100%;
+    /*background-color: #00BFCB;*/
+    position: absolute;font-family: 'Poppins', sans-serif;
+    
+
 }
 .head h1{
-    font-size: 50px;
+    position: absolute;
+    left: 145px;
+    top: 195px;
+    font-size: 64px;
     color: #fff;
 
-    
 }
-.div1 .head h1{
-    font-family: 'Poppins', sans-serif;
-    margin: 0 auto;
+.head p{
+    position: absolute;
+    left:145px ;
+    top: 380px;
+    color: #fff;
+    font-size: 24px;
+}
+.div2{
+    position: relative;
+    
+    
+
+}
+.div2 .input {
+    
+    position: absolute;
    
+    background-color: #00BFCB;
+
+}
+.div2 .service{
+    position: absolute;
+    top: 520px;
+    left: 360px;
+    height: 65px;
+    width: 180px;
+    font-size: 24px;
+    padding: 0 50px 0 50px;
+
+}
+.div2 .a{
+    background-color: #00BFCB;
+    font-size: 24px;
+    padding:15px 15px 35px 40px;
+    display: inline;
+    color: #fff;
+}
+.head .div2 .a{
+    position: absolute;
+    top: 520px;
+    left: 145px;
+    height: 65px;
+    width: 180px;
+}
+.div2 .o{
+    background-color: #FFC400;
+    font-size: 20px;
+    padding:15px 15px 35px 40px;
+    display: inline;
+    color: #fff;
+}
+.head .div2 .o{
+    position: absolute;
+    top: 520px;
+    left: 380px;
+    height: 65px;
+    width: 180px;
+    display: inline;
+    border: 1px solid#fff;
+
+}
+.div3 .c {
+    position: absolute;
+    height: 100%;
+    width: 60%;
+   
+    left: 106.7%;
+    justify-content: center;
+ 
+}
+
+.dog-img{
+    position: absolute;
+    right: 155px;
+    top: 93px;
+    bottom: 125px;
+    
 }
