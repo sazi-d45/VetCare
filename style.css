@@ -6,20 +6,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 a{
     text-decoration: none;
 }
+
 ul li{
     list-style-type: none;
 }
+
 .header{
     height: 121px;
     background-color:#EAAD00;
     
 }
+
 .header img{
     cursor: pointer;
 }
+
 .header .container{
     width: 1200px;
     height: 100%;
@@ -30,13 +35,16 @@ ul li{
     justify-content: space-between;
     align-items: center;
 }
+
 .header-menu .menu{
     display: flex;
     align-items: center;
 }
+
 .header-menu .menu li:last-child{
     left: 30px;
 }
+
 .header-menu .menu li a{
     display: inline-block;
     padding: 10px 20px;
@@ -45,6 +53,7 @@ ul li{
     font-size: 29px;
 
 }
+
 .input-field{
     height: 50px;
     width: 270px;
@@ -54,24 +63,28 @@ ul li{
     color: #fff;
     font-size: 24px;
 }
+
 .input-field::placeholder{
     font-size: 24px;
     color: #fff;
     
     
 }
+
 .search-list .icon{
     height: 50px;
     width: 70px;
     background-color: #00BFCB;
     
 }
+
 .search-list{
     position:relative;
     color: #fff;
     font-size: 24px;
     
 }
+
 .search-list .icon{
     position:absolute;
     right: 0;
@@ -81,6 +94,7 @@ ul li{
     align-items: center;
     cursor: pointer;
 }
+
 .div1{
     height: 780px;
     background-color: #FFC400;
@@ -90,6 +104,7 @@ ul li{
     
     
 }
+
 .head{
     width: 60%;
     height: 100%;
@@ -98,6 +113,7 @@ ul li{
     
 
 }
+
 .head h1{
     position: absolute;
     left: 350px;
@@ -106,6 +122,7 @@ ul li{
     color: #fff;
 
 }
+
 .head p{
     position: absolute;
     left:350px ;
@@ -119,6 +136,7 @@ ul li{
     
 
 }
+
 .div2 .input {
     
     position: absolute;
@@ -126,6 +144,7 @@ ul li{
     background-color: #00BFCB;
 
 }
+
 .div2 .service{
     position: absolute;
     top: 520px;
@@ -136,6 +155,7 @@ ul li{
     padding: 0 50px 0 50px;
 
 }
+
 .div2 .a{
     background-color: #00BFCB;
     font-size: 24px;
@@ -143,6 +163,7 @@ ul li{
     display: inline;
     color: #fff;
 }
+
 .head .div2 .a{
     position: absolute;
     top: 520px;
@@ -150,6 +171,7 @@ ul li{
     height: 65px;
     width: 180px;
 }
+
 .div2 .o{
     background-color: #FFC400;
     font-size: 20px;
@@ -157,6 +179,7 @@ ul li{
     display: inline;
     color: #fff;
 }
+
 .head .div2 .o{
     position: absolute;
     top: 520px;
@@ -167,6 +190,7 @@ ul li{
     border: 1px solid#fff;
 
 }
+
 .div3 .c {
     position: absolute;
     height: 100%;
@@ -184,6 +208,7 @@ ul li{
     bottom: 125px;
     
 }
+
 .div4{
     position: relative;
     background-color: #fff;
@@ -192,12 +217,14 @@ ul li{
     font-family: 'Poppins', sans-serif;
 
 }
+
 .hh{
     height: 100%;
     width: 50%;
     
 
 }
+
 .hh h1{
     position: absolute;
     left: 370px;
@@ -205,13 +232,14 @@ ul li{
     font-size: 64px;
     
 }
+
 .hh p{
     position: relative
     
    
 }
-.hh p{
-    
+
+.hh p{ 
     left: 370px;
     top: 450px;
     font-size: 24px;
@@ -225,6 +253,7 @@ ul li{
     color: #fff;
   
 }
+
 .hh .div5 .aa{
     position: absolute;
     top: 590px;
@@ -233,23 +262,136 @@ ul li{
     width: 180px;
 }
 
-    
-
-.div7{
-    height: 200px;
-    width: 250px;
-    background-color:#EAAD00;
-    left: 1100px;
-    top: 525px;
-    position: absolute;
-    z-index: 2;
-
-}
 .div6 .sick-dog{
     position: absolute;
     left: 1150px;
     top: 200px;
-    z-index: 1;
+
+    
 }
+
+.div7{
+    height: 205px;
+    width: 40px;
+    background-color:#EAAD00;
+    left: 1110px;
+    top: 515px;
+    position: absolute;
+    
+
+}
+
+.div8{
+    height: 40px;
+    width: 205px;
+    background-color:#EAAD00;
+    left: 1110px;
+    top: 680px;
+    position: absolute;
+
+}
+
+.div6 .video{
+    position: absolute;
+    left: 1350px;
+    top:400px;
+}
+
+.div9{
+    position: relative;
+    background-color: #FFC400;
+    height: 900px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-arounds;
+
+
+}
+.div10 {
+  height: 350px;
+  width: 100%;
+    /* background-color: #00BFCB; */
+
+}
+.div10 h1{
+    position: absolute;
+    top: 100px;
+    left: 40%;
+    font-size: 64px;
+    color: #fff;
+    
+}
+.div10 p{
+    position: absolute;
+    top: 200px;
+    left: 35%;
+    font-size: 24px;
+    color: #fff;
+}
+
+
+.div11 .sick1{
+    position: absolute;
+    left: 350px;
+}
+.div11 h1{
+    position: absolute;
+    color: #fff;
+    font-size: 32px;
+    left: 400px;
+    top: 730px;
+}
+.div11 p{
+    position: absolute;
+    color: #fff;
+    left: 350px;
+    top: 780px;
+    font-size: 24px;
+}
+.div11 .sick2{
+    position: absolute;
+    left: 825px;
+    right: 300px;
+}
+
+.div11 h2{
+    position: absolute;
+    color: #fff;
+    font-size: 32px;
+    left: 825px;
+    top: 730px;
+}
+.div11 .lorem{
+    position: absolute;
+    color: #fff;
+    left: 825px;
+    top: 780px;
+    font-size: 24px;
+}
+.div11 .sick3{
+    position: absolute;
+    left: 1300px;
+    right: 300px;
+}
+.div11 h3{
+    position: absolute;
+    color: #fff;
+    font-size: 32px;
+    left: 1360px;
+    top: 730px;
+
+}
+.div11 .lor{
+    position: absolute;
+    color: #fff;
+    left: 1300px;
+    top: 780px;
+    font-size: 24px;
+}
+
+
+
+
+
 
 
